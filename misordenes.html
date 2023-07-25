@@ -21,12 +21,10 @@
     }
     .order{
       display: grid;
-      grid-template-columns: auto 1fr;
+      grid-template-columns: auto 1fr auto;
       gap: 12px;
       align-items: center;
-      background-color: var(--text-input-field);
-      padding: 0 24px;
-      margin-bottom: 24px;
+      margin-bottom: 12px;
     }
     .order p:nth-child(1){
       display: flex;
@@ -53,7 +51,7 @@
     }
     .title{
       font-size: var(--lg);
-      margin-bottom: 40px;
+      margin-bottom: 20px;
     }
     .my-order-container {
        display: grid;
@@ -64,36 +62,12 @@
       display: flex;
       flex-direction: column;
     }
-    .shopping-cart{
-      display: grid;
-      grid-template-columns: auto 1fr auto auto;
-      gap: 12px;
-      margin-bottom: 24px;
-      align-items: center;
-    }
-    .shopping-cart figure{
-      margin: 0;
-    }
-    .shopping-cart figure img{
-      width: 75px;
-      height: 75px;
-      border-radius: 20px;
-      object-fit: cover;
-    }
-    .shopping-cart p:nth-child(2){
-      color: var(--very-light-pink);
-    }
-    .shopping-cart p:nth-child(3){
-      font-size: var(--md);
-      font-weight: bold;
-    }
-
   </style>
 </head>
 <body>
   <div class="my-order">
     <div class="my-order-container">
-      <h1 class="title">Mi orden</h1>
+      <h1 class="title">Mis ordenes</h1>
       <div class="my-order-content">
         <div class="order">
           <p>
@@ -101,24 +75,58 @@
             <span>1 articulo</span>
           </p>
           <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
+        </div>
+        <div class="order">
+          <p>
+            <span>24.07.2023</span>
+            <span>1 articulo</span>
+          </p>
+          <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
+        </div>
+        <div class="order">
+          <p>
+            <span>24.07.2023</span>
+            <span>1 articulo</span>
+          </p>
+          <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
+        </div>
+        <div class="order">
+          <p>
+            <span>24.07.2023</span>
+            <span>1 articulo</span>
+          </p>
+          <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
+        </div>
+        <div class="order">
+          <p>
+            <span>24.07.2023</span>
+            <span>1 articulo</span>
+          </p>
+          <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
+        </div>
+        <div class="order">
+          <p>
+            <span>24.07.2023</span>
+            <span>1 articulo</span>
+          </p>
+          <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
+        </div>
+        <div class="order">
+          <p>
+            <span>24.07.2023</span>
+            <span>1 articulo</span>
+          </p>
+          <p>$560.00</p>
+          <img src="./assets/icons/flechita.svg" alt="Arrow">
         </div>
         
-        <div class="shopping-cart">
-          <figure><img src="assets/img/bike.jpg" alt="cicla mamalona"></figure>
-          <p>Bicicleta</p>
-          <p>$560.00</p>
-        </div>
-        <div class="shopping-cart">
-          <figure><img src="assets/img/bike.jpg" alt="cicla mamalona"></figure>
-          <p>Bicicleta</p>
-          <p>$560.00</p>
-        </div>
-        <div class="shopping-cart">
-          <figure><img src="assets/img/bike.jpg" alt="cicla mamalona"></figure>
-          <p>Bicicleta</p>
-          <p>$560.00</p>
-        </div>
-      </div>
+       
       
     </div>
     
