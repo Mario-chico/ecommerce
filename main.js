@@ -3,7 +3,7 @@ const desktopMenu = document.querySelector('.desktop-menu')
 const hamMenu = document.querySelector('.menu')
 const mobileMenu = document.querySelector('.mobile-menu')
 const menuCarritoIcon = document.querySelector('.navbar-shopping-cart')
-const aside = document.querySelector('.product-detail')
+const aside = document.querySelector('#shoppingCartDetail')
 const cardsContainer = document.querySelector('.cards-container')
 
 console.log({navImageEmail})
